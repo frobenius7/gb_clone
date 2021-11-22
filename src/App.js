@@ -14,7 +14,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
 
   useEffect(() => {
     // TODO: don't just fetch once; subscribe!
-    contract.getMessages().then(setMessages);
+    //contract.getMessages().then(setMessages);
   }, []);
 
   const onSubmit = (e) => {
